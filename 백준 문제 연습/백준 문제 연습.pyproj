@@ -1,0 +1,104 @@
+﻿<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="4.0">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>e93e0aa9-e53e-4747-9356-e7af7edfa460</ProjectGuid>
+    <ProjectHome>.</ProjectHome>
+    <StartupFile>15684번 사다리 조작.py</StartupFile>
+    <SearchPath>
+    </SearchPath>
+    <WorkingDirectory>.</WorkingDirectory>
+    <OutputPath>.</OutputPath>
+    <Name>백준 문제 연습</Name>
+    <RootNamespace>백준 문제 연습</RootNamespace>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
+    <DebugSymbols>true</DebugSymbols>
+    <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
+    <DebugSymbols>true</DebugSymbols>
+    <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="1027번 고층 건물.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="1038번 감소하는 .py" />
+    <Compile Include="1041번 주사위.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="1106번 호텔.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="1107번 리모컨.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="1374번 강의실.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="1484번 다이어트.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="15684번 사다리 조작.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="1629번 곱셈.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="1662번 압축.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="1987번 알파벳.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="2637 장난감 조립.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="2887번 행성 터널 성공.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="2887번 행성 터널 실패.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="9205번 맥주 마시며 걸어가기 풀이_2.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="9205번 맥주 마시며 걸어가기.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="백준 1092번 배.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="백준 1456 거의 소수.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="백준 2580번 스도쿠.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="백준 2623번 음악 프로그램.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="백준 7576번 토마토.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="에라토스테네스의 체.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="2178번 미로 탐색.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="2660번 회장 뽑기.py">
+      <SubType>Code</SubType>
+    </Compile>
+  </ItemGroup>
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
+  <!-- Uncomment the CoreCompile target to enable the Build command in
+       Visual Studio and specify your pre- and post-build commands in
+       the BeforeBuild and AfterBuild targets below. -->
+  <!--<Target Name="CoreCompile" />-->
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+</Project>
